@@ -19,7 +19,7 @@ export default function Home() {
         />
         <meta name="author" content="Gino Pietrobon" />
       </Head>
-      <div className="flex flex-col">
+      <div className="flex flex-col bg-white">
         <p className="text-center text-xl mt-10 mx-4">
           ¡ Página en mantenimiento hasta el 1 de noviembre !
         </p>
@@ -28,7 +28,7 @@ export default function Home() {
           alt="citro mantenimiento"
           className="justify-center align-middle mx-auto my-12 w-96 h-72 mainImage"
         />
-        <p className="text-center text-xl mt-10 mx-4">
+        <p className="text-center text-xl mt-10 mx-4 mb-12">
           Para cualquier consulta: 
           <br/>
           <a

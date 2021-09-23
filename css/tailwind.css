@@ -5,9 +5,9 @@
 @import "tailwindcss/utilities";
 
 .btn {
-    @apply bg-yellow border-2 p-4 rounded-lg text-primary font-bold;
+    @apply border-2 p-4 rounded-lg text-primary font-bold;
 }
 
 .btn:hover {
-    @apply bg-darkGray text-yellow border-2 border-yellow font-extrabold transform scale-110 transition duration-500 cursor-pointer;
+    @apply border-2 font-extrabold transform scale-110 transition duration-500 cursor-pointer;
 }
