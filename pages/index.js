@@ -26,9 +26,26 @@ export default function Home() {
         <img
           src="/mantenimiento.jpeg"
           alt="citro mantenimiento"
-          className="justify-center align-middle mx-auto my-12 w-96 h-72"
+          className="justify-center align-middle mx-auto my-12 w-96 h-72 mainImage"
         />
+        <p className="text-center text-xl mt-10 mx-4">
+          Para cualquier consulta: 
+          <br/>
+          <a
+            href="mailto:citroaventura@gmail.com"
+            target="_blank"
+            rel="noopener"
+            className="font-bold"
+          >citroaventura@gmail.com</a> 
+        </p>
       </div>
+      <style jsx>{`
+      
+      .mainImage:hover {
+          transform: scale(1.1);
+             }
+      
+      `}</style>
     </div>
   );
 }
