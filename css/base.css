@@ -1,0 +1,24 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarabun&display=swap');
+
+
+body {
+  background-color: #eff2f5;
+  margin: 0;
+  font-family: 'Sarabun', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: yellowscale;
+}
+h1 {
+  font-family: 'Righteous', cursive;
+}
+h2 {
+  font-family: 'Righteous', cursive;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
