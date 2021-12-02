@@ -9,7 +9,8 @@ module.exports = {
         extend: {
             colors : {
                 primary : '#0D0D0D',
-                secundary: '#222224'
+                secundary: '#222224',
+                citrorange: '#f14b23'
                 
             },
             fontFamily : {
@@ -17,7 +18,13 @@ module.exports = {
                 'righteous' : ['Righteous']
             },
             backgroundImage: theme => ({               
-                       
+                'baloon': "url('/baloon.jpg')",  
+                'inside': "url('/inside-car.jpg')",  
+                'love': "url('/love.jpg')",
+                'baloon-m': "url('/baloon-m.jpg')",  
+                'inside-m': "url('/inside-car-m.jpg')",  
+                'love-m': "url('/love-m.jpg')",
+                                     
                })
         }       
     },

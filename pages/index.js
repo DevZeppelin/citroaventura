@@ -1,8 +1,24 @@
+import { useState } from "react";
+
 import Head from "next/head";
+import MobileNavBar from "../components/MobileNavBar";
+import NavBar from "../components/NavBar";
+import SectionMain from "../components/SectionMain";
+import SectionBackgroundFixed from "../components/SectionBackgroundFixed";
+import SectionBackgroundFixed2 from "../components/SectionBackgroundFixed2";
+import SectionBackgroundFixed3 from "../components/SectionBackgroundFixed3";
 
 //Comilla invertida ````````
 
 export default function Home() {
+
+  const [open, setOpen] = useState(false);
+
+    const toggleNav = (e) => {
+      e.preventDefault();
+      setOpen(!open);
+    };
+
   return (
     <div>
       <Head>
@@ -19,26 +35,26 @@ export default function Home() {
         />
         <meta name="author" content="Gino Pietrobon" />
       </Head>
-      <div className="flex flex-col bg-white">
-        <p className="text-center text-xl mt-10 mx-4">
-          ¡ Página en mantenimiento hasta el 1 de noviembre !
-        </p>
-        <img
-          src="/mantenimiento.jpeg"
-          alt="citro mantenimiento"
-          className="justify-center align-middle mx-auto my-12 w-96 h-72 mainImage"
-        />
-        <p className="text-center text-xl mt-10 mx-4 mb-12">
-          Para cualquier consulta: 
-          <br/>
-          <a
+     
+     
+      <NavBar toggleNav={toggleNav}/>
+      <MobileNavBar open={open}/>
+      <SectionMain/>
+
+      
+      <SectionBackgroundFixed/>
+      <SectionBackgroundFixed2/>
+      <SectionBackgroundFixed3/>
+
+
+         {/*  <a
             href="mailto:citroaventura@gmail.com"
             target="_blank"
             rel="noopener"
             className="font-bold"
-          >citroaventura@gmail.com</a> 
-        </p>
-      </div>
+          >citroaventura@gmail.com</a>  */}
+
+     
       <style jsx>{`
       
       .mainImage:hover {
