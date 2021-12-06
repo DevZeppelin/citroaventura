@@ -6,7 +6,7 @@ import NavBar from "../components/NavBar";
 import SectionMain from "../components/SectionMain";
 import SectionBackgroundFixed from "../components/SectionBackgroundFixed";
 import SectionBackgroundFixed2 from "../components/SectionBackgroundFixed2";
-import SectionBackgroundFixed3 from "../components/SectionBackgroundFixed3";
+import Footer from "../components/Footer";
 
 //Comilla invertida ````````
 
@@ -44,7 +44,7 @@ export default function Home() {
       
       <SectionBackgroundFixed/>
       <SectionBackgroundFixed2/>
-      <SectionBackgroundFixed3/>
+      <Footer/>
 
 
          {/*  <a

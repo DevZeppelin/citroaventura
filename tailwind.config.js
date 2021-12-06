@@ -15,7 +15,8 @@ module.exports = {
             },
             fontFamily : {
                 body : ['Heebo'],
-                'righteous' : ['Righteous']
+                'righteous' : ['Righteous'],
+                'readex': ['Readex Pro']
             },
             backgroundImage: theme => ({               
                 'baloon': "url('/baloon.jpg')",  
@@ -24,6 +25,7 @@ module.exports = {
                 'baloon-m': "url('/baloon-m.jpg')",  
                 'inside-m': "url('/inside-car-m.jpg')",  
                 'love-m': "url('/love-m.jpg')",
+                'us': "url('/us.jpg')"
                                      
                })
         }       

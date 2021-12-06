@@ -1,17 +1,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Sarabun&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
 
 
 body {
   background-color: #eff2f5;
   margin: 0;
-  font-family: 'Sarabun', sans-serif;
+ font-family: 'Fuzzy Bubbles', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: yellowscale;
 }
 h1 {
-  font-family: 'Righteous', cursive;
+  font-family: 'Fuzzy Bubbles', cursive;
 }
 h2 {
   font-family: 'Righteous', cursive;

@@ -9,7 +9,7 @@ const SectionMain = () => {
           </h2>
           <div className="text-gray-800 space-y-3 xs:text-base sm:text-xl px-8 md:px-64 md:text-2xl textLight font-bold mx-auto">
             <p className=" leading-relaxed">
-            Libro del viaje intercontinental de un <strong>Citroën 3cv</strong> argentino
+            Viaje intercontinental a bordo de un <strong>Citroën 3cv</strong> argentino
             </p>
           </div>        
 
