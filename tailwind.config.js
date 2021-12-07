@@ -19,13 +19,13 @@ module.exports = {
                 'readex': ['Readex Pro']
             },
             backgroundImage: theme => ({               
-                'baloon': "url('/baloon.jpg')",  
-                'inside': "url('/inside-car.jpg')",  
-                'love': "url('/love.jpg')",
-                'baloon-m': "url('/baloon-m.jpg')",  
-                'inside-m': "url('/inside-car-m.jpg')",  
-                'love-m': "url('/love-m.jpg')",
-                'us': "url('/us.jpg')"
+                'baloon': "url('/baloon.webp')",  
+                'inside': "url('/inside-car.webp')",  
+                'love': "url('/love.webp')",
+                'baloon-m': "url('/baloon-m.webp')",  
+                'inside-m': "url('/inside-car-m.webp')",  
+                'love-m': "url('/love-m.webp')",
+                'us': "url('/us.webp')"
                                      
                })
         }       

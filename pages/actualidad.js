@@ -51,7 +51,7 @@ export default function Actualidad() {
           </p>
           <div className="my-6">
             <img
-              src="/inside-car.jpg"
+              src="/inside-car.webp"
               className="flex align-middle mx-auto m-8 border-4 rounded-xl border-gray-600"
             />
           </div>

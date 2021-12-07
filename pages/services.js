@@ -39,7 +39,7 @@ export default function Services() {
         <div className="text-gray-800 space-y-3 text-lg mb-32 px-8 md:px-52 md:text-xl textLight mx-auto space-y-8 ">
           <div className="space-y-4 text-center">
             <p className="text-xl md:text-3xl font-bold">¡Citro dibujos!</p>
-            <img src="/mantenimiento.png" className="border-2 border-gray-600 mx-auto space-y-4" />
+            <img src="/mantenimiento.webp" className="border-2 border-gray-600 mx-auto space-y-4" />
             <div>
               <p>Dibujos citroneros originales a pedido. ¿Que esperás para tener el citro-dibujo digital de tu Citro-nave para imprimir en calcomanías y pegar en todos lados?</p>
               <p>¡Tu Citroen se lo merece!</p>

@@ -3,7 +3,7 @@ const SectionMain = () => {
     <section className="bg-citrorange">
       <div className="min-h-screen text-center">
         <div className="py-4 md:py-8 ">
-          <img src="/mini.png" className="mx-auto p-12"/>
+          <img src="/mini.webp" className="mx-auto p-12"/>
           <h2 className="text-4xl md:text-6xl font-righteous fadeIn text-yellow textDark  text-white uppercase animate-bounce">
             Citroaventura
           </h2>

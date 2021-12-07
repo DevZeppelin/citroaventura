@@ -61,7 +61,7 @@ export default function Book() {
             <p className="text-xl md:text-3xl pt-8 font-bold">
               Citroaventura Tapa Dura
             </p>
-            <img src="/book-hard.jpg" className="border-4 border-gray-600" />
+            <img src="/book-hard.webp" className="border-4 border-gray-600" />
             <ul className="space-y-2">
               <li>-247 pags.</li>
               <li>-Anillado.</li>
@@ -83,7 +83,7 @@ export default function Book() {
             <p className="text-xl md:text-3xl font-bold">
               Citroaventura Tapa Blanda
             </p>
-            <img src="/book-soft.jpg" className="border-4 border-gray-600" />
+            <img src="/book-soft.webp" className="border-4 border-gray-600" />
             <ul className="space-y-2">
               <li>-247 pags.</li>
               <li>-Anillado.</li>

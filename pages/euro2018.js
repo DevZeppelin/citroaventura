@@ -46,7 +46,7 @@ export default function Euro2018() {
             Salimos en Abril del 2018 desde Argentina con tumbo a España con los
             siguientes objetivos:
           </p>
-          <img src="/objetivos.jpg" className="mx-auto m-4 border-2 border-gray-800 rounded-lg" />
+          <img src="/objetivos.webp" className="mx-auto m-4 border-2 border-gray-800 rounded-lg" />
           <p>
             Una aventura en la que
             conocimos personajes maravillosos y lugares mágicos. Una experiencia
@@ -84,7 +84,7 @@ export default function Euro2018() {
           </p>
           <div className="my-6">
             <img
-              src="/baloon.jpg"
+              src="/baloon.webp"
               className="flex align-middle mx-auto m-8 border-4 rounded-xl border-gray-600"
             />
           </div>
