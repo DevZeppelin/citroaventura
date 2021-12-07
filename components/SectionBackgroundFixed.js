@@ -8,24 +8,30 @@ const SectionBackgroundFixed = () => {
         <div></div>
 
         <Fade left>
-          <div className="text-gray-800 space-y-3 text-lg md:text-xl textLight font-bold md:pl-24 justify-start m-8">
-            <p >
-            ¡Hola! Somos Gabriela Lucas, Pablo Profetto y nuestro Citroën 3cv llamado "il Morta"
+          <div className="text-white space-y-3 text-lg md:text-xl textLight font-bold md:pl-24 justify-start m-8">
+            <p>
+              ¡Hola! Somos Gabriela Lucas, Pablo Profetto y nuestro Citroën 3cv
+              llamado "il Morta"
             </p>
             <p>
               ¿Querés acompañarnos en un viaje inolvidable alrededor del mundo?
             </p>
-            <div className="md:grid md:grid-cols-2 text-sm md:text-base md:p-4 gap-6 text-white">
-               <Link href="/euro2018"><button className="bg-citrorange p-2 border-2 rounded-lg font-extrabold border-black uppercase bg-opacity-80 font-righteous">Citroaventura 2018 Europa-Asia</button></Link>
-               <button className="bg-citrorange p-2 border-2 rounded-lg font-extrabold border-black uppercase bg-opacity-80 font-righteous">Actualidad y futuros proyectos</button>
+            <div className="md:grid md:grid-cols-2 text-sm md:text-base md:p-4 gap-6 text-white min-h-64">
+              <Link href="/euro2018">
+                <button className="bg-citrorange p-2 border-2 rounded-lg font-extrabold border-black uppercase bg-opacity-80 font-righteous mt-4">
+                  Citroaventura 2018 Europa-Asia
+                </button>
+              </Link>
+              <button className="bg-citrorange p-2 border-2 rounded-lg font-extrabold border-black uppercase bg-opacity-80 font-righteous mt-4">
+                Actualidad y futuros proyectos
+              </button>
             </div>
           </div>
         </Fade>
       </div>
       <style jsx>{`
         .textLight {
-         
-         text-shadow: 1px 1px 2px white, 0 0 1em white, 0 0 0.2em white;
+          text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
         }
       `}</style>
     </section>

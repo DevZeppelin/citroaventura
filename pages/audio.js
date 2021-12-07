@@ -38,10 +38,10 @@ Audio() {
       <section>
           <h2 className="text-2xl md:text-4xl text-center my-16">Audiocuentos</h2>
         <div className="text-gray-800 space-y-3 text-lg mb-32 px-8 md:px-52 md:text-xl textLight mx-auto space-y-8">
-          <div className="space-y-4">
+          <div className="space-y-6">
            
-            <img src="/audiocuento.jpg" className="border-4 border-gray-600" />
-            <p>Escuchá nuestros audiocuentos para tener una idea de lo que encontrarás en neustro libro</p>
+            <img src="/audiocuento.jpg" className="border-4 border-gray-600 mx-auto rounded-lg" />
+            <p>Escuchá nuestros audiocuentos para tener una idea de lo que encontrarás en nuestro libro</p>
             
           </div>
           

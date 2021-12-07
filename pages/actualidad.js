@@ -43,22 +43,25 @@ export default function Actualidad() {
           <p>
             Actualmente estamos en Mendoza, Argentina y con el libro de nuestra
             travesía recientemente publicado buscamos nuevos horizontes en
-            nuestro país. Queremos llegar a pequeñas comunidades del interior
+            nuestro país. 
+            </p>
+            <p>Queremos llegar a pequeñas comunidades del interior
             para llevar nuestra historia y para aprender todo lo que la
             humanidad tenga para enseñar.
           </p>
+          <div className="my-6">
+            <img
+              src="/inside-car.jpg"
+              className="flex align-middle mx-auto m-8 border-4 rounded-xl border-gray-600"
+            />
+          </div>
           <p>
             Efectuamos también presentaciones itinerantes de nuestro libro,
             conciertos de las canciones compuestas a lo largo de nuestra
             travesía, visitas a escuelas, centros culturales y cursos de
             concientización vial.
           </p>
-          <p>
-            (aqui iria imagen con dibujos de objetivos) Una ventura en la que
-            conocimos personajes maravillosos y lugares mágicos. Una experiencia
-            inolvidable que nos inspiró para seguir viajando buscando nuevos
-            horizontes.
-          </p>
+         
           <p>
             ¿Interesado en coordinar actividades o visitas a tu pueblo?
             Escríbenos a{" "}
@@ -70,15 +73,10 @@ export default function Actualidad() {
             >
               citroaventura@gmail.com
             </a>{" "}
-            o contactanos a traves de nuestras redes... (link)
+            o contactanos a traves de nuestras redes 👇...
           </p>
 
-          <div className="my-6">
-            <img
-              src="/inside-car.jpg"
-              className="flex align-middle mx-auto m-8 border-4 rounded-xl border-gray-600"
-            />
-          </div>
+         
         </div>
       </section>
       <Footer />

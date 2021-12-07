@@ -36,10 +36,10 @@ export default function Services() {
       <MobileNavBar open={open} />
       <section>
           <h2 className="text-2xl md:text-4xl text-center my-16">Otros Productos</h2>
-        <div className="text-gray-800 space-y-3 text-lg mb-32 px-8 md:px-52 md:text-xl textLight mx-auto space-y-8 grid grid-cols-1  md:grid-cols-2 gap-6">
-          <div className="space-y-4">
-            <p className="text-xl md:text-3xl pt-8 font-bold">¡Citro dibujos!</p>
-            <img src="/mantenimiento.png" className="border-2 border-gray-600" />
+        <div className="text-gray-800 space-y-3 text-lg mb-32 px-8 md:px-52 md:text-xl textLight mx-auto space-y-8 ">
+          <div className="space-y-4 text-center">
+            <p className="text-xl md:text-3xl font-bold">¡Citro dibujos!</p>
+            <img src="/mantenimiento.png" className="border-2 border-gray-600 mx-auto space-y-4" />
             <div>
               <p>Dibujos citroneros originales a pedido. ¿Que esperás para tener el citro-dibujo digital de tu Citro-nave para imprimir en calcomanías y pegar en todos lados?</p>
               <p>¡Tu Citroen se lo merece!</p>

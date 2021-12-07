@@ -40,7 +40,7 @@ export default function Book() {
         <div className="text-gray-800 space-y-3 text-lg my-16 px-8 md:px-64 md:text-xl textLight mx-auto ">       
             <p>
               Libro que cuenta al detalle nuestro viaje por Europa y Parte de Asia
-              en 2018 a bordo de nuestro Citroën 3cv argentino.{" "}
+            a bordo de nuestro Citroën 3cv argentino durante el año 2018.{" "}
             </p>
             <p>
               ¿Cómo cruzamos el mar con el auto? ¿Cómo logramos el sustento?
@@ -63,7 +63,7 @@ export default function Book() {
             </p>
             <img src="/book-hard.jpg" className="border-4 border-gray-600" />
             <ul className="space-y-2">
-              <li>-254 pags.</li>
+              <li>-247 pags.</li>
               <li>-Anillado.</li>
               <li>-Ilustrado</li>
               <li>-Fotografías a color.</li>
@@ -85,11 +85,11 @@ export default function Book() {
             </p>
             <img src="/book-soft.jpg" className="border-4 border-gray-600" />
             <ul className="space-y-2">
-              <li>-254 pags.</li>
+              <li>-247 pags.</li>
               <li>-Anillado.</li>
               <li>-Ilustrado</li>
               <li>-Fotografías a color.</li>
-              <li>''</li>
+             
             </ul>
             <a
               href="https://articulo.mercadolibre.com.ar/MLA-1109159958-citroaventura-el-libro-version-tapa-blanda-_JM
@@ -102,12 +102,14 @@ export default function Book() {
               </button>
             </a>
           </div>
-          <div className="flex justify-center bg-citrorange rounded-lg border-2 border-gray-800 bg-opacity-60">
+          <div className="flex justify-center text-center bg-citrorange rounded-lg border-2 border-gray-800 bg-opacity-60">
             <p className="px-4 md:px-24 text-lg p-2">
-                <b>¿Quieres una muestra del libro?</b> Escucha 3 episodios en audio
-                haciendo click <a className="text-3xl">
-                  <Link href="/audio">AQUÌ</Link>
-                </a>{" "}
+                <b>¿Quieres una muestra del libro?</b> <p>
+                  Escucha 3 episodios en audio
+                  haciendo click <a className="text-3xl font-righteous">
+                    <Link href="/audio">AQUÌ</Link>
+                  </a>{" "}
+                </p>
               </p>
           </div>
         </div>

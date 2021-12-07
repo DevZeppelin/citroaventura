@@ -35,6 +35,10 @@ const MobileNavBar = ({ open }) => {
         >          
           Mapa del recorrido 2018
          </a>
+         <Link href="/audio">
+          <a className="mr-2 mt-5 px-3 ">Audiocuentos</a>
+        </Link>
+
       </div>
     </div>
   );
