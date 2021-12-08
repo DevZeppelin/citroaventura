@@ -43,10 +43,10 @@ export default function Euro2018() {
         <div className="text-gray-800 space-y-6 text-lg my-16 px-8 md:px-64 md:text-xl textLight mx-auto ">
           <p>Los sueños de casi todas nuestras vidas en un solo viaje...</p>
           <p>
-            Salimos en Abril del 2018 desde Argentina con tumbo a España con los
+            Salimos en Abril del 2018 desde Argentina con rumbo a España con los
             siguientes objetivos:
           </p>
-          <img src="/objetivos.webp" className="mx-auto m-4 border-2 border-gray-800 rounded-lg" />
+          <img src="/objetivos.jpg" className="mx-auto m-4 border-2 border-gray-800 rounded-lg" />
           <p>
             Una aventura en la que
             conocimos personajes maravillosos y lugares mágicos. Una experiencia
@@ -62,7 +62,7 @@ export default function Euro2018() {
           </p>
           <Link href="/book">
             
-              <button className="bg-citrorange p-4 border-2 rounded-lg font-extrabold border-black ">
+              <button className="bg-citrorange hover:bg-gray-800 text-white p-4 border-2 rounded-lg font-extrabold border-black ">
                     Libro Citroaventura 2018
               </button>
            

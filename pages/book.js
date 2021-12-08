@@ -74,7 +74,7 @@ export default function Book() {
               target="_blank"
               rel="noopener"
             >
-              <button className="bg-citrorange p-4 border-2 rounded-lg font-extrabold border-black my-4">
+              <button className="bg-citrorange hover:bg-gray-800 text-white p-4 border-2 rounded-lg font-extrabold border-black my-4">
                 Comprar
               </button>
             </a>
@@ -97,7 +97,7 @@ export default function Book() {
               target="_blank"
               rel="noopener"
             >
-              <button className="bg-citrorange p-4 border-2 rounded-lg font-extrabold border-black my-4">
+              <button className="bg-citrorange hover:bg-gray-800 text-white p-4 border-2 rounded-lg font-extrabold border-black my-4">
                 Comprar
               </button>
             </a>

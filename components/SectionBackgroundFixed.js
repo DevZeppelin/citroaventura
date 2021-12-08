@@ -18,11 +18,11 @@ const SectionBackgroundFixed = () => {
             </p>
             <div className="md:grid md:grid-cols-2 text-sm md:text-base md:p-4 gap-6 text-white min-h-64">
               <Link href="/euro2018">
-                <button className="bg-citrorange p-2 border-2 rounded-lg font-extrabold border-black uppercase bg-opacity-80 font-righteous mt-4">
+                <button className="bg-citrorange hover:bg-gray-800 p-2 border-2 rounded-lg font-extrabold border-black uppercase bg-opacity-80 font-righteous mt-4">
                   Citroaventura 2018 Europa-Asia
                 </button>
               </Link>
-              <button className="bg-citrorange p-2 border-2 rounded-lg font-extrabold border-black uppercase bg-opacity-80 font-righteous mt-4">
+              <button className="bg-citrorange hover:bg-gray-800 p-2 border-2 rounded-lg font-extrabold border-black uppercase bg-opacity-80 font-righteous mt-4">
                 Actualidad y futuros proyectos
               </button>
             </div>
