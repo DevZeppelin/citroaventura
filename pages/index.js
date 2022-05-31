@@ -45,15 +45,6 @@ export default function Home() {
       <SectionBackgroundFixed/>
       <SectionBackgroundFixed2/>
       <Footer/>
-
-
-         {/*  <a
-            href="mailto:citroaventura@gmail.com"
-            target="_blank"
-            rel="noopener"
-            className="font-bold"
-          >citroaventura@gmail.com</a>  */}
-
      
       <style jsx>{`
       
