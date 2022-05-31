@@ -22,9 +22,11 @@ const SectionBackgroundFixed = () => {
                   Citroaventura 2018 Europa-Asia
                 </button>
               </Link>
-              <button className="bg-citrorange hover:bg-gray-800 p-2 border-2 rounded-lg font-extrabold border-black uppercase bg-opacity-80 font-righteous mt-4">
-                Actualidad y futuros proyectos
-              </button>
+              <Link href="/actualidad">
+                <button className="bg-citrorange hover:bg-gray-800 p-2 border-2 rounded-lg font-extrabold border-black uppercase bg-opacity-80 font-righteous mt-4">
+                  Actualidad y futuros proyectos
+                </button>
+              </Link>
             </div>
           </div>
         </Fade>
